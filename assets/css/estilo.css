@@ -1,0 +1,79 @@
+/* reset geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('..fundo/background.gif') no-repeat;
+    background-size: cover;
+}
+.fundo h1 {
+    color: aqua;
+    position: absolute;
+    top: 5%;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px plum;
+    
+}
+
+.calculadora {
+    background: rgb(255, 51, 0);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px black;
+}
+
+.calculadora h2 {
+    color: cornflowerblue;
+    text-align: center;
+
+}
+
+#resultado {
+    background-color: antiquewhite;
+    color: rgb(0, 0, 0);
+    /* height: 2rem; */
+    height: 2rem;
+    width: 14rem;
+    text-align: right;
+    padding: .2rem .5rem;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    margin: 1rem auto 1rem;
+    overflow: hidden;
+
+
+}
+
+button {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-weight: 600;
+    margin: .1rem;
+    box-shadow: 3px 3px black;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: rgb(62, 9, 255);
+    color: azure;
+}
+
+td[rowspan="2"] button {
+    background-color: blueviolet;
+    height: 6.75rem;
+    color: antiquewhite;
+}
+
+td[colspan="2"] button {
+    width: 6.75rem;
+}
